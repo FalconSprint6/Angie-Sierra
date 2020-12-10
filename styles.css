@@ -1,4 +1,4 @@
-/* Nav */
+/*--------Nav--------*/
 .navbar {
   background: rgba(255, 255, 255, 0.315) !important;
   /* Give transparent white background to navbar */
@@ -13,7 +13,13 @@
   /* Increases browser compability (safari ios and mac) */
 }
 
-/* Home Jumbotron */
+.navbar-toggler {
+  border-color: #5d8684;
+}
+.nav-item {
+  font-family: 'Kodchasan', sans-serif;
+}
+/*--------Home Jumbotron--------*/
 #jumbocontainer {}
 
 .jumbotron {
@@ -49,6 +55,7 @@
   display: block;
   margin-bottom: 80%;
   text-align: left;
+  margin-top: .5em;
 }
 
 .words {
@@ -79,7 +86,7 @@
   overflow: hidden;
 }
 
-/*Services*/
+/*--------Services--------*/
 
 #services {
   background-color: #9dd1cd;
@@ -157,11 +164,61 @@
   margin-bottom: 2em;
 }
 
+.col-lg-4 {
+  text-align: center;
+  overflow-x: hidden
+}
 
 
+.address {
+  font-family: 'KoHo', sans-serif;
+  text-align: left;
+  font-size: large;
+}
+
+.time {
+  font-family: 'KoHo', sans-serif;
+  font-weight: 500;
+  margin-top: 1.5em;
+  font-size: x-large;
+}
+.servicedesc {
+  text-align: left;
+  font-family: 'KoHo', sans-serif;
+  font-size: large;
+}
+.privserv {
+  font-family: 'KoHo', sans-serif;
+  font-weight: 600;
+  font-size: large;
+}
+
+.text-center {
+  font-family: 'KoHo', sans-serif;
+}
+.btn {
+  background-color: #CFBBAD;
+  border: 2px solid #75aaa7;
+  font-family: 'Kodchasan', sans-serif;
+  margin-bottom: 1.5em;
+  margin-top: 1.5em;
+}
+
+.btn:hover {
+  background-color: #b6a090;
+  border: 2px solid #5d8684;
+}
 
 
-/**/
+#longbtn {
+  margin-top: 2.85em;
+}
+
+#events {
+  overflow: hidden;
+}
+
+/*--------taichi--------*/
 
 #tai {
   background-image: url("images/taichi2964hi5.jpg");
@@ -173,7 +230,10 @@
   align-items: center;
   overflow: hidden;
   padding-top: 0;
+  padding-bottom: 150px;
 }
+
+/*--------reiki--------*/
 
 #rei {
   background-image: url("images/reiki-2.jpg");
@@ -185,6 +245,7 @@
   align-items: center;
   overflow: hidden;
   padding-top: 0;
+  padding-bottom: 220px;
 }
 
 
@@ -205,66 +266,7 @@
   background: #75aaa7;
 }
 
-
-
-
-
-
-
-
-.col-lg-4 {
-  text-align: center;
-  overflow-x: hidden
-}
-
-/**/
-
-.time {
-  font-family: 'KoHo', sans-serif;
-  font-weight: 500;
-  margin-top: 1.5em;
-  font-size: x-large;
-}
-
-/**/
-
-
-
-/**/
-
-.address {
-  font-family: 'KoHo', sans-serif;
-  text-align: left;
-  font-size: large;
-}
-
-/**/
-
-.servicedesc {
-  text-align: left;
-  font-family: 'KoHo', sans-serif;
-  font-size: large;
-}
-
-/**/
-
-.privserv {
-  font-family: 'KoHo', sans-serif;
-  font-weight: 600;
-  font-size: large;
-}
-
-/**/
-
-.btn {
-  margin-top: 1.5em;
-}
-
-.text-center {
-  font-family: 'KoHo', sans-serif;
-}
-
-
+/*--------events--------*/
 #events {
   background-color: #609491;
   overflow-x: hidden;
@@ -275,35 +277,29 @@
   overflow-x: hidden;
 }
 
-.btn {
-  background-color: #CFBBAD;
-  border: 2px solid #75aaa7;
-  font-family: 'Kodchasan', sans-serif;
-  margin-bottom: 1.5em;
+.peopleCarouselImg img {
+  width: auto;
+  height: 500px;
+  max-height: 500px;
 }
 
-.btn:hover {
-  background-color: #b6a090;
-  border: 2px solid #5d8684;
+.carousel-caption {
+  position: relative;
+  left: 0;
+  top: 0;
 }
-
-
-#longbtn {
-  margin-top: 2.85em;
-}
-
-#events {
-  overflow: hidden;
+#carouselExampleCaptions {
+  margin-bottom: 100px !important;
 }
 
 
-
-#taichi {
+/*#taichi {
   background-image: url("images/taichi2964hi.jpg");
   background-repeat: no-repeat;
   background-size: contain;
-}
+}*/
 
+/*--------invisible nav--------*/
 .bottom1 {
   position: relative;
 }
@@ -318,22 +314,35 @@
   top: 23px;
 }
 
-.peopleCarouselImg img {
-  width: auto;
-  height: 500px;
-  max-height: 500px;
+/*--------Jumbotron texts--------*/
+#jumbotitle2 {
+  font-family: 'Kodchasan', sans-serif;
+  color: white;
+  margin-bottom: 20%;
+  margin-top: .55em;
 }
 
-.carousel-caption {
-  position: relative;
-  left: 0;
-  top: 0;
+#jumbowords {
+  font-family: 'KoHo', sans-serif;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.322);
+  margin-right: 60%;
 }
 
-#carouselExampleCaptions {
-  margin-bottom: 100px !important;
+#jumbotitle3 {
+  font-family: 'Kodchasan', sans-serif;
+  color: black;
+  margin-bottom: 13%;
 }
 
+.jumbowords2 {
+  font-family: 'KoHo', sans-serif;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.322);
+  margin-left: 60%;
+}
+
+/*--------footer--------*/
 .footer {
   background-color: #CFBBAD
 }
@@ -347,35 +356,9 @@
   padding: 2%;
 }
 
-#jumbotitle2 {
-  font-family: 'Kodchasan', sans-serif;
-  color: white;
-  margin-bottom: 20%;
-}
 
-#jumbowords {
-  font-family: 'KoHo', sans-serif;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.322);
-  margin-right: 60%;
-}
 
-#jumbotitle3 {
-  font-family: 'Kodchasan', sans-serif;
-  color: black;
-  margin-bottom: 15%;
-}
 
-.jumbowords2 {
-  font-family: 'KoHo', sans-serif;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.322);
-  margin-left: 60%;
-}
-
-.nav-item {
-  font-family: 'Kodchasan', sans-serif;
-}
 
 #info {
   font-size: larger;
@@ -417,12 +400,10 @@
   margin-bottom: 2em;
 }
 
-.navbar-toggler {
-  border-color: #5d8684;
-}
 
 
-/*media queries*/
+
+/*--------media queries--------*/
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -448,7 +429,7 @@
 }
 .jumbotitle {
   margin-bottom: none;
-  margin-top: 75px;
+  margin-top: .5em;
   text-align: center;
 }
 .words {
@@ -465,7 +446,12 @@
 }
 #jumbotitle2 {
   margin-bottom: none;
-  margin-top: 10px;
+  margin-top: 55px;
+  text-align: center;
+}
+#jumbotitle3 {
+  margin-bottom: 170px;
+margin-top:0;
   text-align: center;
 }
 
@@ -474,10 +460,21 @@
   background-color: rgba(0, 0, 0, 0.322);
   font-size: smaller;
   margin-right: 0;
+  margin-left: 0;
 }
 
-#taichi {
-  background-image: url("images/006\ Angie\ Sierra-2v-50-2.jpg");
+#tai {
+  background-image: url("images/taichi2964hi2-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+    overflow: hidden;
+    background-position: center;
+
+}
+
+#rei {
+  background-image: url("images/reiki-sensations-hands.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 0;
