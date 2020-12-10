@@ -461,6 +461,28 @@
   background-color: rgba(0, 0, 0, 0.322);
   font-size: smaller;
   margin-right: 0;
+  margin-top: 55%
+}
+#jumbotitle2 {
+  margin-bottom: none;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.jumbowords2 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.322);
+  font-size: smaller;
+  margin-right: 0;
+}
+
+#taichi {
+  background-image: url("images/006\ Angie\ Sierra-2v-50-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+    overflow: hidden;
+    background-position: center;
 }
 
 
