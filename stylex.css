@@ -1,0 +1,253 @@
+/*------------navbar------------*/
+
+.navbar {
+    background: rgba(255, 255, 255, 0.315) !important;
+    /* Give transparent white background to navbar */
+    /* 0.2 to give little whitish effect. */
+    /* Put 0 to get complete transperency */
+    z-index: 2;
+    backdrop-filter: blur(10px) saturate(125%);
+    /* Blur the background */
+    /* 10px Gaussian Blur and saturate for fluent design */
+    -webkit-backdrop-filter: blur(10px) saturate(125%);
+    overflow: hidden;
+    /* Increases browser compability (safari ios and mac) */
+}
+
+.navbar-toggler {
+    border-color: #5d8684;
+}
+
+.nav-item {
+    font-family: 'Kodchasan', sans-serif;
+}
+
+/*------------About------------*/
+
+.jumbotron {
+    background-image: url("images/006\ Angie\ Sierra-2v.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+/*.full-width-image {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+    overflow: hidden;
+  }*/
+
+.jumbotron .container {
+    position: relative;
+    padding-top: 5%;
+}
+
+.jumbotitle {
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: '500';
+    color: #75aaa7;
+    display: block;
+    margin-bottom: 80%;
+    /*this shows the rest of the image*/
+    text-align: left;
+}
+
+.words {
+    margin-bottom: 20%;
+    padding: 5%;
+    background-color: #00000063;
+    color: #9dd1cd;
+    font-family: 'KoHo', sans-serif;
+}
+
+#bio {
+    padding-top: 5%;
+    padding-left: 15%;
+}
+
+
+/*--------invisible nav--------*/
+.bottom1 {
+    position: relative;
+}
+
+.bottom2 {
+    position: absolute;
+    bottom: 20px;
+}
+
+.bottom3 {
+    position: absolute;
+    top: 23px;
+}
+
+/*------------services------------*/
+
+#services {
+    background-color: #9dd1cd;
+    overflow-x: hidden
+}
+
+.serviceimg {
+    height: 250px;
+    overflow: hidden;
+    overflow-x: hidden
+  }
+
+  .col-lg-4 {
+    text-align: center;
+    overflow-x: hidden
+  }
+
+  
+
+/*------------Texts------------*/
+
+.title,
+.subhead,
+.underneath {
+    text-align: center;
+    overflow: hidden;
+}
+
+.title {
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: '500';
+    color: white;
+    margin-top: .5em;
+    overflow: hidden;
+    overflow-x: hidden
+}
+
+.subhead {
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: '400';
+    color: white;
+    margin-top: .5em;
+  }
+
+  .service-title {
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: '400';
+    color: white;
+    /*margin-top: 1em;
+    margin-bottom: 2em;*/
+    text-align: center;
+  }
+
+  .underneath {
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: '200';
+    color: rgba(255, 255, 255, 0.767);
+    /*margin-bottom: 1em;*/
+  }
+
+  .servicetext {
+    font-family: 'KoHo', sans-serif;
+  }
+
+  #reikidesc {
+   /* margin-top: 1em;
+    margin-bottom: 2em;*/
+  }
+
+  .address {
+    font-family: 'KoHo', sans-serif;
+    text-align: left;
+    font-size: large;
+  }
+  
+  .time {
+    font-family: 'KoHo', sans-serif;
+    font-weight: 500;
+    margin-top: 1.5em;
+    font-size: x-large;
+  }
+  .servicedesc {
+    text-align: left;
+    font-family: 'KoHo', sans-serif;
+    font-size: large;
+  }
+  .privserv {
+    font-family: 'KoHo', sans-serif;
+    font-weight: 600;
+    font-size: large;
+  }
+
+  .text-center {
+    font-family: 'KoHo', sans-serif;
+  }
+
+    /*------------button------------*/
+
+  .btn {
+    background-color: #CFBBAD;
+    border: 2px solid #75aaa7;
+    font-family: 'Kodchasan', sans-serif;
+    /*margin-bottom: 1.5em;
+    margin-top: 1.5em;*/
+  }
+  
+  .btn:hover {
+    background-color: #b6a090;
+    border: 2px solid #5d8684;
+  }
+  
+
+  /*------------icons------------*/
+
+  .icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+    margin-top: 20px;
+  }
+  
+
+/*------------media queries------------*/
+
+@media only screen and (max-width: 768px) {
+    /* For cellphone: */
+
+    /*------------jumbotron------------*/
+    .jumbotron {
+        background-image: url("images/006\ Angie\ Sierra-2v-50-2-2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 0;
+        overflow: hidden;
+        background-position: center;
+    }
+
+    .jumbotitle {
+        font-family: 'Kodchasan', sans-serif;
+        font-weight: '500';
+        color: #75aaa7;
+        display: block;
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 1em;
+    }
+
+    .words {
+        margin-bottom: 0;
+        padding: 2.5%;
+        background-color: #0000007c;
+        color: #9dd1cd;
+        font-family: 'KoHo', sans-serif;
+        font-size: smaller
+    }
+
+    #bio {
+        justify-content: center;
+        padding: 15px;
+        margin-bottom: 0;
+        margin-top: 15em;
+    }
+
+
+}
