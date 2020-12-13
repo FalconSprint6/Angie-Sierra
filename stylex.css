@@ -88,19 +88,31 @@
 
 #services {
     background-color: #9dd1cd;
-    overflow-x: hidden
+    overflow-x: hidden;
+    padding-bottom: 2em;
 }
 
 .serviceimg {
     height: 250px;
     overflow: hidden;
-    overflow-x: hidden
+    overflow-x: hidden;
+    margin-top: 1.5em;
   }
 
   .col-lg-4 {
     text-align: center;
     overflow-x: hidden
   }
+
+  #beg {
+    margin-bottom: 4.65em;
+  }
+
+  #ytxt {
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+  }
+  
 
   
 
@@ -133,16 +145,17 @@
     font-family: 'Kodchasan', sans-serif;
     font-weight: '400';
     color: white;
-    /*margin-top: 1em;
-    margin-bottom: 2em;*/
+    margin-top: 1em;
+    
     text-align: center;
+
   }
 
   .underneath {
     font-family: 'Kodchasan', sans-serif;
     font-weight: '200';
     color: rgba(255, 255, 255, 0.767);
-    /*margin-bottom: 1em;*/
+    
   }
 
   .servicetext {
@@ -150,8 +163,8 @@
   }
 
   #reikidesc {
-   /* margin-top: 1em;
-    margin-bottom: 2em;*/
+    margin-top: 1em;
+    margin-bottom: 1.5em;
   }
 
   .address {
@@ -163,7 +176,7 @@
   .time {
     font-family: 'KoHo', sans-serif;
     font-weight: 500;
-    margin-top: 1.5em;
+    margin-top: 1.25em;
     font-size: x-large;
   }
   .servicedesc {
@@ -173,7 +186,7 @@
   }
   .privserv {
     font-family: 'KoHo', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: large;
   }
 
@@ -181,21 +194,40 @@
     font-family: 'KoHo', sans-serif;
   }
 
-    /*------------button------------*/
+    /*------------buttons------------*/
 
   .btn {
     background-color: #CFBBAD;
     border: 2px solid #75aaa7;
     font-family: 'Kodchasan', sans-serif;
-    /*margin-bottom: 1.5em;
-    margin-top: 1.5em;*/
+    /*margin-bottom: 1.5em;*/
+    margin-top: 1.5em;
   }
   
   .btn:hover {
     background-color: #b6a090;
     border: 2px solid #5d8684;
   }
+
+  #longbtn {
+    margin-top: 2.85em;
+  }
+
+  #eventsbtn {
+      margin-bottom: .75em;
+  }
+
+  #info {
+      color: rgb(58, 58, 58) !important;
+      font-size: medium;
+  }
   
+  #zoominfo {
+    color: rgb(58, 58, 58) !important;
+    font-size: medium;
+    margin-top: .5em;
+}
+
 
   /*------------icons------------*/
 
@@ -204,7 +236,7 @@
     margin-left: auto;
     margin-right: auto;
     overflow-x: hidden;
-    margin-top: 20px;
+    margin-top: 45px;
   }
   
 
@@ -248,6 +280,99 @@
         margin-bottom: 0;
         margin-top: 15em;
     }
+
+/*------------Texts------------*/
+#info {
+    color: rgb(58, 58, 58) !important;
+    font-size: small;
+}
+
+.title,
+.subhead,
+.underneath {
+    text-align: center;
+    overflow: hidden;
+}
+
+.title {
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: '500';
+    color: white;
+    margin-top: .5em;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+
+.subhead {
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: '400';
+    color: white;
+    margin-top: .5em;
+  font-size: x-large;
+  }
+
+  .service-title {
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: '400';
+    color: white;
+    margin-top: 1em;
+    font-size: x-large;
+    text-align: center;
+
+  }
+
+  .underneath {
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: '200';
+    color: rgba(255, 255, 255, 0.767);
+    font-size: medium;
+  }
+
+  .servicetext {
+    font-family: 'KoHo', sans-serif;
+  }
+
+  #reikidesc {
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+  }
+
+  .address {
+    font-family: 'KoHo', sans-serif;
+    text-align: left;
+    font-size: medium;
+  }
+  
+  .time {
+    font-family: 'KoHo', sans-serif;
+    font-weight: 500;
+    margin-top: 1.25em;
+    font-size: larger;
+  }
+  .servicedesc {
+    text-align: left;
+    font-family: 'KoHo', sans-serif;
+    font-size: medium;
+  }
+  .privserv {
+    font-family: 'KoHo', sans-serif;
+    font-weight: 500;
+    font-size: large;
+  }
+
+  .text-center {
+    font-family: 'KoHo', sans-serif;
+  }
+
+  /*------------icons------------*/
+
+  .icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+    margin-top: 22.5px;
+  }
 
 
 }
