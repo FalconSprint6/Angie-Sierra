@@ -120,7 +120,7 @@
 
   
 
-/*------------Texts------------*/
+/*------------Text------------*/
 
 .title,
 .subhead,
@@ -211,6 +211,15 @@ margin-top: 1.25em;
       font-size: medium;
       margin-top: 1em
   }
+
+  .dlink {
+    color: #CFBBAD
+  }
+  
+  .dlink:hover {
+    color: #9dd1cd;
+  }
+  
   
     /*------------buttons------------*/
 
